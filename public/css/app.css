@@ -1,0 +1,112 @@
+body {
+    padding-bottom: 40px;
+    padding-top: 60px;
+    font-family: 'lucida grande' !important;
+    font-size: 12px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+p,
+.btn {
+	font-size: 12px;
+}
+
+.sidebar-nav {
+    padding: 9px 0;
+}
+
+.field label {
+	float: left;
+	min-width: 200px;
+}
+
+#landing .hero-unit {
+	padding: 20px;
+}
+
+#landing .hero-unit h1 {
+	font-size: 30px;
+}
+
+#recipeList .recipelist a {
+	color: #000;
+}
+
+#recipeLinks .recipelist li {
+	line-height: 30px;
+}
+
+#recipeLinks .recipelist li a:hover, 
+#recipeLinks .recipelist li a:active,
+#recipeLinks .recipelist > li.active > a:hover, 
+#recipeLinks .recipelist > li.active > a 
+ {
+	background-color: #B00000 ;
+	color: #fff;
+}
+
+#landing .overview {
+    height: 170px;
+    margin: 0 20px 20px 0;
+    width: 400px;	
+}
+
+#shareRecipe input[type=text],
+#shareRecipe textarea {
+	width: 60%;
+}
+
+#shareRecipe #ingredientsInput {
+	height: 150px;
+}
+
+#shareRecipe #methodInput {
+	height: 300px;
+}
+
+#shareRecipe #share {
+	padding: 10px 100px;
+}
+
+
+input[type="file"] {
+	height: auto;
+}
+
+#landing .thumbnail {
+	float: left;
+	width: 100px;
+	margin-right: 10px;
+}
+
+.displayImage {
+	float: right; 
+	margin-right: 20px;
+}
+
+.displayImage img {
+	max-width: 480px;
+}
+
+#viewRecipe .ingredients {
+
+}
+
+#viewRecipe #method {
+	margin-top: 20px;
+}
+
+#viewRecipe {
+	max-width: 960px;
+}
+
+#viewRecipe .back {
+	margin-top: 60px;
+}

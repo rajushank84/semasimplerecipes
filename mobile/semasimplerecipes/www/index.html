@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sema Simple Recipes</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/app.css">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top" id="header">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                	
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                	   <span class="icon-bar"></span>
+                       <span class="icon-bar"></span>
+                    </a>
+
+                    <a class="brand proceed" href="http://semasimplerecipes.com/landing">Sema Simple Recipes</a>
+                        <div class="nav-collapse collapse">
+                            <ul class="nav navbar-text pull-right">
+                                <li><a href="http://semasimplerecipes.com/landing" class="proceed">Home</a>
+                                </li>
+                                <li><a href="http://semasimplerecipes.com/about" class="proceed">About</a>
+                                </li>
+                                <li><a href="http://semasimplerecipes.com/shareRecipe" class="proceed">Share a recipe</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-fluid" id="container">
+            <div class="row-fluid">
+                <div class="span3" id="recipeLinks">
+
+                </div>
+                <div id="content" class="span9">
+
+                </div>
+            </div>
+        </div>
+
+        <input id="currentView" value="landing" type="hidden">
+        <script type="text/javascript" src="cordova-2.2.0.js"></script>
+        
+        <script type="text/javascript" src="js/lib/dust-core-1.0.0.js"></script>
+        <script type="text/javascript" src="js/lib/jquery-min.js"></script>
+        <script type="text/javascript" data-main="js/main" src="js/lib/require.js"></script>
+        <script type="text/javascript" src="js/lib/bootstrap-transition.js"></script>
+        <script type="text/javascript" src="js/lib/bootstrap-collapse.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,6 @@
+rm -rf ./jsdust/
+dustc public/templates/viewRecipe.dust public/jsdust/viewRecipe.js
+dustc public/templates/recipeLinks.dust public/jsdust/recipeLinks.js
+dustc public/templates/landing.dust public/jsdust/landing.js
+dustc public/templates/shareRecipe.dust public/jsdust/shareRecipe.js
+dustc public/templates/about.dust public/jsdust/about.js

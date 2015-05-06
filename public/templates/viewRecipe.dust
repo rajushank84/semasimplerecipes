@@ -1,0 +1,29 @@
+<section id="viewRecipe">
+
+  {?data.recipe.image}
+    <div class="displayImage">
+        <img src="/images/{data.recipe.image}" class="img-polaroid" />
+    </div>
+  {/data.recipe.image}
+
+  <h1>{data.recipe.name}</h1>
+  <h2>{data.recipe.description}</h2>
+  
+  <div class="ingredients">
+    <h3>Ingredients</h3>
+    <ul>
+      {#data.recipe.ingredients}
+        {@if cond="('{ingredient}' !== '')"}
+          <li>{ingredient}</li>
+        {/if}
+      {/data.recipe.ingredients}
+    </ul>
+  </div>
+
+  <h3>Method</h3>
+  <p id="method">
+    {data.recipe.method}
+  </p>
+
+  <p class="back"><a class="btn proceed" href="/" class="proceed"> &laquo; Back</a></p>
+</section>

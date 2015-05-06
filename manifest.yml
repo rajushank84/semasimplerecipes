@@ -1,0 +1,14 @@
+--- 
+applications: 
+  .: 
+    infra: aws
+    instances: 1
+    url: semasimplerecipes
+    name: semasimplerecipes
+    mem: 64M
+    framework: 
+      info: 
+        exec: 
+        description: Node.js Application
+        mem: 64M
+      name: node

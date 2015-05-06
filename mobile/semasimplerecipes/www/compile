@@ -1,0 +1,5 @@
+dustc templates/viewRecipe.dust jsdust/viewRecipe.js
+dustc templates/recipeLinks.dust jsdust/recipeLinks.js
+dustc templates/landing.dust jsdust/landing.js
+dustc templates/shareRecipe.dust jsdust/shareRecipe.js
+dustc templates/about.dust jsdust/about.js
